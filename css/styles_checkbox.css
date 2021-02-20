@@ -72,7 +72,7 @@ input[type="checkbox"][value="ぱぱびっぷ"]:checked:before{
   display: inline-block;
   width: 200px;
   height: 200px;
-  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/papav_check.PNG);
+  background: url(/Users/miku/Desktop/TRPGarcive.com/assets/img/papav_check.png);
   background-size: 200px 200px;
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
