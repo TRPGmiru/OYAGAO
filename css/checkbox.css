@@ -69,7 +69,7 @@ input[type="checkbox"][value="ぱぱびっぷ"]{
   display: inline-block;
   width: 200px;
   height: 200px;
-  background: url(../assets/img/papav_circle.png);
+  background: url(../assets/img/papav_circle.PNG);
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
   background-size: contain;
@@ -83,7 +83,7 @@ input[type="checkbox"][value="ぱぱびっぷ"]:checked:before{
   display: inline-block;
   width: 200px;
   height: 200px;
-  background: url(../assets/img/papav_check.png);
+  background: url(../assets/img/papav_check.PNG);
   background-size: 200px 200px;
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
