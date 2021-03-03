@@ -42,7 +42,7 @@ input[type="checkbox"][value="ディズム"]{
   display: inline-block;
   width: 200px;
   height: 200px;
-  background: url(../assets/img/dizm_circle.PNG);
+  background: url(../assets/img/dizm_circle.png);
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
   background-size: contain;
@@ -58,7 +58,7 @@ input[type="checkbox"][value="ディズム"]:checked:before{
   display: inline-block;
   width: 200px;
   height: 200px;
-  background: url(../assets/img/dizm_check.PNG);
+  background: url(../assets/img/dizm_check.png);
   background-size: 200px 200px;
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
