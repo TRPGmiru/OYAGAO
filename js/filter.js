@@ -2,9 +2,9 @@ var searchBox = '.search-box'; // 絞り込む項目を選択するエリア
 var listItem = '.list_item';   // 絞り込み対象のアイテム
 var hideClass = 'is-hide';     // 絞り込み対象外の場合に付与されるclass名
 
-$(function() {
+$(function () {
   // 絞り込み項目を変更した時
-  $(document).on('change', searchBox + ' input', function() {
+  $(document).on('change', searchBox + ' input', function () {
     search_filter();
   });
 });
@@ -20,7 +20,7 @@ function search_filter() {
     // 選択されている項目を取得
     var searchData = get_selected_input_items(name);
     // 選択されている項目がない、またはALLを選択している場合は飛ばす
-    if(searchData.length === 0 || searchData[0] === '') {
+    if (searchData.length === 0 || searchData[0] === '') {
       continue;
     }
     // リスト内の各アイテムをチェック
@@ -29,7 +29,7 @@ function search_filter() {
       var itemData = get_setting_values_in_item($(listItem).eq(j), name);
       // 絞り込み対象かどうかを調べる
       var check = array_match_check(itemData, searchData);
-      if(!check) {
+      if (!check) {
         $(listItem).eq(j).addClass(hideClass);
       }
     }
@@ -43,7 +43,7 @@ function search_filter() {
  */
 function get_selected_input_items(name) {
   var searchData = [];
-  $('[name=' + name + ']:checked').each(function() {
+  $('[name=' + name + ']:checked').each(function () {
     searchData.push($(this).val());
   });
   return searchData;
@@ -57,7 +57,7 @@ function get_selected_input_items(name) {
  */
 function get_setting_values_in_item(target, data) {
   var itemData = target.data(data);
-  if(!Array.isArray(itemData)) {
+  if (!Array.isArray(itemData)) {
     itemData = [itemData];
   }
   return itemData;
@@ -73,10 +73,16 @@ function array_match_check(arr1, arr2) {
   // 絞り込み対象かどうかを調べる
   var arrCheck = false;
   for (var i = 0; i < arr1.length; i++) {
-    if(arr2.indexOf(arr1[i]) >= 0) {
+    if (arr2.indexOf(arr1[i]) >= 0) {
       arrCheck = true;
       break;
     }
   }
   return arrCheck;
+}
+
+
+let serchclear = function () {
+  var formElement = document.getElementById('form1');
+  formElement.reset();
 }
