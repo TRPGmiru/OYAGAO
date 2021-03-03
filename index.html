@@ -1,247 +1,348 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>親顔Web</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
-        <link href="css/styles.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/heading.css">
-        <link rel="stylesheet" href="css/body.css">
-        <link rel="stylesheet" href="css/dice.css">
-    </head>
-    <body id="page-top">
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-            <a  href ="./index.html"><img src ="assets/img/Dice_top.png" class ="top-page-dice"></a>
-            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">親の顔より見たTRPGWeb</a>
-                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./filter.html">フィルター</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./search.html">検索</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <br><h1 class="masthead-heading mb-0">親の顔より見たTRPGWeb</h1><br>
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Youtubeに上がっている親顔メンバーTRPG配信のアーカイブ情報をまとめた</p>
-                <p class="pre-wrap masthead-subheading font-weight-light mb-0">非公式ファンサイトです。</p>
-            </div>
-        </header>
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">おすすめ</h2>
-                </div>
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/dizm_check.png"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/papav_check.PNG"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/muchu_check.PNG"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/takao_check.jpg"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/tokiyan_check.jpg"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/usi_check.jpg"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Dizm-->
-        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">おすすめアーカイブ</h2>
-                                    <div class="divider-custom">
-                                    </div>
 
-                                    <iframe width="100%" height="390" src="https://www.youtube.com/embed/bh_wciUi318" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id='movieAreaDizm'></iframe>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>親顔Web</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/heading.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/dice.css">
+    <link rel="stylesheet" href="css/styles_index.css">
+</head>
 
-                                </div>
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+        <a href="./index.html"><img src="assets/img/Dice_top.png" class="top-page-dice"></a>
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">親の顔より見たTRPGWeb</a>
+            <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="./filter.html">フィルター</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="./search.html">検索</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <br>
+            <h1 class="masthead-heading mb-0">親の顔より見たTRPGWeb</h1><br>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="pre-wrap masthead-subheading font-weight-light mb-0">Youtubeに上がっている親顔メンバーTRPG配信のアーカイブ情報をまとめた</p>
+            <p class="pre-wrap masthead-subheading font-weight-light mb-0">非公式ファンサイトです。</p>
+        </div>
+    </header>
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="page-section-heading text-secondary mb-0 d-inline-block">おすすめ</h2>
+            </div>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/dizm_check.png" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/papav_check.PNG" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/muchu_check.PNG" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/takao_check.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/tokiyan_check.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/usi_check.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Dizm-->
+    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="address">
+                            <h1 class="portfolio-modal-title text-secondary mb-0 membername">ディズム
+                                <a href="https://www.youtube.com/channel/UCqJ6QFcqZziMnMLr3L3OWAw"><img
+                                src="assets/img/Youtube1.png"></a>
+                                <a href="https://twitter.com/DizmKDC"><img src="assets/img/Twitter1.png"></a>
+                                <a href="https://dizm.booth.pm/"><img src="assets/img/BOOTH.png"></a>
+                            </h1>
+                        </div>
+                        <hr color="#2c3e50">
+                        <br>
+                        <h3 class="portfolio-modal-title text-secondary mb-0 detail"></h3>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h6 class="portfolio-modal-title text-secondary mb-0 osusume">おすすめアーカイブ</h6>
+                                <iframe width="100%" height="390" src="https://www.youtube.com/embed/bh_wciUi318"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen id='movieAreaDizm'></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--papavip-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">おすすめアーカイブ</h2>
-                                    <div class="divider-custom">
-                                    </div>
+    </div>
+    <!--papavip-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="address">
+                            <h1 class="portfolio-modal-title text-secondary mb-0 membername">ぱぱびっぷ
+                                <a href="https://www.youtube.com/channel/UCZx_5iDqKiom29wLbWBYZtQ"><img
+                                src="assets/img/Youtube1.png"></a>
+                                <a href="https://twitter.com/papavip_trpg"><img src="assets/img/Twitter1.png"></a>
+                                <a href="http://lin.ee/amdz1gE"><img src="assets/img/LINE.png"></a>
+                                <a href="https://galacticafumble.booth.pm/"><img src="assets/img/BOOTH.png"></a>
+                            </h1>
+                        </div>
+                        <hr color="#2c3e50">
+                        <br>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h3 class="portfolio-modal-title text-secondary mb-0 detail"></h3>
+                                <h6 class="portfolio-modal-title text-secondary mb-0 osusume">おすすめアーカイブ</h6>
+                                <iframe width="100%" height="390" src="https://www.youtube.com/embed/RnAxLAmN9oo"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen id='movieAreaPapav'></iframe>
 
-                                    <iframe width="100%" height="390" src="https://www.youtube.com/embed/RnAxLAmN9oo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id='movieAreaPapav'></iframe>
-                                    
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--muchu-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">おすすめアーカイブ</h2>
-                                    <div class="divider-custom">
-                                    </div>
+    </div>
+    <!--muchu-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="address">
+                            <h1 class="portfolio-modal-title text-secondary mb-0 membername">むつー
+                                <a href="https://www.youtube.com/channel/UC04G5WzIZ2ieJT0JlZy4H-A"><img
+                                src="assets/img/Youtube1.png"></a>
+                                <a href="https://twitter.com/mutuu24"><img src="assets/img/Twitter1.png"></a>
+                                <a href="https://mutuu24.booth.pm/"><img src="assets/img/BOOTH.png"></a>
+                            </h1>
+                        </div>
+                        <hr color="#2c3e50">
+                        <br>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h3 class="portfolio-modal-title text-secondary mb-0 detail"></h3>
+                                <h6 class="portfolio-modal-title text-secondary mb-0 osusume">おすすめアーカイブ</h6>
+                                <iframe width="100%" height="390" src="https://www.youtube.com/embed/PYFzegrqxXY"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen id='movieAreaMuchu'></iframe>
 
-                                    <iframe width="100%" height="390" src="https://www.youtube.com/embed/PYFzegrqxXY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id='movieAreaMuchu'></iframe>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--takao-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">おすすめアーカイブ</h2>
-                                    <div class="divider-custom">
-                                    </div>
+    </div>
+    <!--takao-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="address">
+                            <h1 class="portfolio-modal-title text-secondary mb-0 membername">高生紳士
+                                <a href="https://www.youtube.com/channel/UCM2SwvNjA0uH8oc5D0ihSDA"><img
+                                src="assets/img/Youtube1.png"></a>
+                                <a href="https://twitter.com/takao_shinji"><img src="assets/img/Twitter1.png"></a>
+                                <a href="https://takaotommy.booth.pm/"><img src="assets/img/BOOTH.png"></a>
+                            </h1>
+                        </div>
+                        <hr color="#2c3e50">
+                        <br>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h3 class="portfolio-modal-title text-secondary mb-0 detail"></h3>
+                                <h6 class="portfolio-modal-title text-secondary mb-0 osusume">おすすめアーカイブ</h6>
+                                <iframe width="100%" height="390" src="https://www.youtube.com/embed/beDHTvVSJRs"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen id='movieAreaTakao'></iframe>
 
-                                    <iframe width="100%" height="390" src="https://www.youtube.com/embed/beDHTvVSJRs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id='movieAreaTakao'></iframe>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--tokiyan-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">おすすめアーカイブ</h2>
-                                    <div class="divider-custom">
-                                    </div>
+    </div>
+    <!--tokiyan-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="address">
+                            <h1 class="portfolio-modal-title text-secondary mb-0 membername">夢咲刻夜
+                                <a href="https://www.youtube.com/channel/UCJXIj8u4wVpN5kxieMTzW7A"><img
+                                src="assets/img/Youtube1.png"></a>
+                                <a href="https://twitter.com/unigasakutoki"><img src="assets/img/Twitter1.png"></a>
+                            </h1>
+                        </div>
+                        <hr color="#2c3e50">
+                        <br>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h3 class="portfolio-modal-title text-secondary mb-0 detail"></h3>
+                                <h6 class="portfolio-modal-title text-secondary mb-0 osusume">おすすめアーカイブ</h6>
+                                <iframe width="100%" height="390" src="https://www.youtube.com/embed/7AzyPPPKCZU"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen id='movieAreaTokiyan'></iframe>
 
-                                    <iframe width="100%" height="390" src="https://www.youtube.com/embed/7AzyPPPKCZU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id='movieAreaTokiyan'></iframe>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--usi-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">おすすめアーカイブ</h2>
-                                    <div class="divider-custom">
-                                    </div>
+    </div>
+    <!--usi-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="address">
+                            <h1 class="portfolio-modal-title text-secondary mb-0 membername">まだら牛
+                                <a href="https://www.youtube.com/channel/UCPox1SfaUhAXaY6WqHi38kQ"><img
+                                src="assets/img/Youtube1.png"></a>
+                                <a href="https://twitter.com/m_Usi"><img src="assets/img/Twitter1.png"></a>
+                                <a href="https://dappleox.booth.pm/"><img src="assets/img/BOOTH.png"></a>
+                            </h1>
+                        </div>
+                        <hr color="#2c3e50">
+                        <br>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h3 class="portfolio-modal-title text-secondary mb-0 detail"></h3>
+                                <h6 class="portfolio-modal-title text-secondary mb-0 osusume">おすすめアーカイブ</h6>
+                                <iframe width="100%" height="390" src="https://www.youtube.com/embed/0bk_j28na_0"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen id='movieAreaUsi'></iframe>
 
-                                    <iframe width="100%" height="390" src="https://www.youtube.com/embed/0bk_j28na_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id='movieAreaUsi'></iframe>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
-        <!-- Copyright Section-->
-        <section class="copyright py-4 text-center text-white">
-            <div class="container"><small class="pre-wrap">TwitterID @TRPGmiru </small></div>
-            <div class="container"><small class="pre-wrap">Copyright © Your Website 2020 </small></div>
-        </section>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="js/random.js"></script>
-    </body>
+    </div>
+
+
+    <!-- Copyright Section-->
+    <section class="copyright py-4 text-center text-white">
+        <div class="container"><small class="pre-wrap">TwitterID @TRPGmiru </small></div>
+        <div class="container"><small class="pre-wrap">Copyright © Your Website 2020 </small></div>
+    </section>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed"><a
+            class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a></div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="js/random.js"></script>
+</body>
+
 </html>
