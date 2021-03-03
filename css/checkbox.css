@@ -47,6 +47,7 @@ input[type="checkbox"][value="ディズム"]{
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
   background-size: contain;
   cursor: pointer;
+  outline: none;
 }
 
 input[type="checkbox"][value="ディズム"]:checked:before{
@@ -62,7 +63,6 @@ input[type="checkbox"][value="ディズム"]:checked:before{
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  outline: none;
 }
 
 input[type="checkbox"][value="ぱぱびっぷ"]{
