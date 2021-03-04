@@ -31,7 +31,7 @@ movieAreaTakao.src = moviesTakao[movieNoTakao];
 
 
 const movieAreaTokiyan = document.getElementById('movieAreaTokiyan');
-const moviesTokiyan = ['https://www.youtube.com/embed/U89ttGSIUkQ', 'https://www.youtube.com/embed/0vUFb6mX1a8', 'https://www.youtube.com/embed/xOjASigLyT8', 'https://www.youtube.com/embed/vYW48CInQSE', 'https://www.youtube.com/embed/zIU-K6RE6dk'];
+const moviesTokiyan = ['https://www.youtube.com/embed/U89ttGSIUkQ', 'https://www.youtube.com/embed/0vUFb6mX1a8', 'https://www.youtube.com/embed/xOjASigLyT8', 'https://www.youtube.com/embed/HFNnN6vXiJ4', 'https://www.youtube.com/embed/zIU-K6RE6dk'];
 
 const movieNoTokiyan = Math.floor( Math.random() * moviesTokiyan.length)
 movieAreaTokiyan.src = moviesTokiyan[movieNoTokiyan];
