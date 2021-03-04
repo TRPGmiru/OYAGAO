@@ -1,4 +1,4 @@
-# 親顔Webだよ
+# 親の顔より見たTRPGWeb
 
 #usage
 
