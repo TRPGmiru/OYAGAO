@@ -1,5 +1,5 @@
 const movieAreaDizm = document.getElementById('movieAreaDizm');
-const moviesDizm = ['https://www.youtube.com/embed/uBfcrqm-NL0', 'https://www.youtube.com/embed/8KoO2s4DLo4', 'https://www.youtube.com/embed/HoqBA1kC_Eo', 'https://www.youtube.com/embed/YLbzl0voOUI', 'https://www.youtube.com/embed/7WKARj1slPs'];
+const moviesDizm = ['https://www.youtube.com/embed/TKkqkI-7NLs', 'https://www.youtube.com/embed/aWUmruZosOU', 'https://www.youtube.com/embed/uBfcrqm-NL0', 'https://www.youtube.com/embed/8KoO2s4DLo4', 'https://www.youtube.com/embed/HoqBA1kC_Eo'];
 
 const movieNoDizm = Math.floor( Math.random() * moviesDizm.length)
 movieAreaDizm.src = moviesDizm[movieNoDizm];
