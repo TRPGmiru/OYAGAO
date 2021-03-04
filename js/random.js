@@ -1,5 +1,5 @@
 const movieAreaDizm = document.getElementById('movieAreaDizm');
-const moviesDizm = ['https://www.youtube.com/embed/TKkqkI-7NLs', 'https://www.youtube.com/embed/aWUmruZosOU', 'https://www.youtube.com/embed/uBfcrqm-NL0', 'https://www.youtube.com/embed/8KoO2s4DLo4', 'https://www.youtube.com/embed/HoqBA1kC_Eo'];
+const moviesDizm = ['https://www.youtube.com/embed/Rck5bgqtJ_E', 'https://www.youtube.com/embed/aWUmruZosOU', 'https://www.youtube.com/embed/nEb83-QO70o', 'https://www.youtube.com/embed/gI2jRtVe-Gc', 'https://www.youtube.com/embed/uBfcrqm-NL0'];
 
 const movieNoDizm = Math.floor( Math.random() * moviesDizm.length)
 movieAreaDizm.src = moviesDizm[movieNoDizm];
@@ -7,7 +7,7 @@ movieAreaDizm.src = moviesDizm[movieNoDizm];
 
 
 const movieAreaPapav = document.getElementById('movieAreaPapav');
-const moviesPapav = ['https://www.youtube.com/embed/FRXiuBkl2qQ', 'https://www.youtube.com/embed/bHYNKKllAV4', 'https://www.youtube.com/embed/EcrEWKMfC5E', 'https://www.youtube.com/embed/Bf18uFKDe3U', 'https://www.youtube.com/embed/MAA20IPFRaY'];
+const moviesPapav = ['https://www.youtube.com/embed/xFuUPRdCCQw', 'https://www.youtube.com/embed/wu2YYk1Yhn0', 'https://www.youtube.com/embed/wB6pTo4aE_c', 'https://www.youtube.com/embed/y7mGvnBCUJQ', 'https://www.youtube.com/embed/RnAxLAmN9oo'];
 
 const movieNoPapav = Math.floor( Math.random() * moviesPapav.length)
 movieAreaPapav.src = moviesPapav[movieNoPapav];
@@ -15,7 +15,7 @@ movieAreaPapav.src = moviesPapav[movieNoPapav];
 
 
 const movieAreaMuchu = document.getElementById('movieAreaMuchu');
-const moviesMuchu = ['https://www.youtube.com/embed/4X6fk6jLN9U', 'https://www.youtube.com/embed/IAyvMRCRkFE', 'https://www.youtube.com/embed/zXfhEztvfPE', 'https://www.youtube.com/embed/bZJFX0XAV2A', 'https://www.youtube.com/embed/P6fQgxDMFlE'];
+const moviesMuchu = ['https://www.youtube.com/embed/VsDHphApkDw', 'https://www.youtube.com/embed/2v95O14BrSw', 'https://www.youtube.com/embed/PYFzegrqxXY', 'https://www.youtube.com/embed/8TgoW0dc8qw', 'https://www.youtube.com/embed/l8S_W03ASiA'];
 
 const movieNoMuchu = Math.floor( Math.random() * moviesMuchu.length)
 movieAreaMuchu.src = moviesMuchu[movieNoMuchu];
@@ -23,7 +23,7 @@ movieAreaMuchu.src = moviesMuchu[movieNoMuchu];
 
 
 const movieAreaTakao = document.getElementById('movieAreaTakao');
-const moviesTakao = ['https://www.youtube.com/embed/OG9lYPND81o', 'https://www.youtube.com/embed/TYlrxV4Bfhs', 'https://www.youtube.com/embed/-aLVG1Vy1GQ', 'https://www.youtube.com/embed/AvlPi11eX5U', 'https://www.youtube.com/embed/4I5rlTkC4Nw'];
+const moviesTakao = ['https://www.youtube.com/embed/fMU2Fvz4OBk', 'https://www.youtube.com/embed/OLH0_gK6mwg', 'https://www.youtube.com/embed/cmgbsJF6Xec', 'https://www.youtube.com/embed/yrriNLNbuCs', 'https://www.youtube.com/embed/beDHTvVSJRs'];
 
 const movieNoTakao = Math.floor( Math.random() * moviesTakao.length)
 movieAreaTakao.src = moviesTakao[movieNoTakao];
@@ -39,7 +39,7 @@ movieAreaTokiyan.src = moviesTokiyan[movieNoTokiyan];
 
 
 const movieAreaUsi = document.getElementById('movieAreaUsi');
-const moviesUsi = ['https://www.youtube.com/embed/AUi4v1HRBg0', 'https://www.youtube.com/embed/8hPVM7d_3h0', 'https://www.youtube.com/embed/3lY9Rl8iLTQ', 'https://www.youtube.com/embed/CcHiUchytWg', 'https://www.youtube.com/embed/oEcK3xyN2oc'];
+const moviesUsi = ['https://www.youtube.com/embed/VwfARxD0r20', 'https://www.youtube.com/embed/TKkqkI-7NLs', 'https://www.youtube.com/embed/mjKr78gjeKo', 'https://www.youtube.com/embed/pJItqUy2O-U', 'https://www.youtube.com/embed/0bk_j28na_0'];
 
 const movieNoUsi = Math.floor( Math.random() * moviesUsi.length)
 movieAreaUsi.src = moviesUsi[movieNoUsi];
