@@ -14,6 +14,11 @@
 }
 
 
+.cal_wrapper{
+  max-width: 1200px;
+  min-width: 900px;
+  margin: 2.0833% auto;
+}
 .googlecal{
   position: relative;
   padding-bottom: 100%;
