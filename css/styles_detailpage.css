@@ -96,11 +96,26 @@ a:hover{
 
 @media (orientation: portrait) and (max-width: 768px) {
 	/* 480px以下に適用されるCSS（スマホ用）デバイスが縦向きの場合の記述 */
-  .detail{
-    display: none;
+  .h1,h1{
+    font-size:1.5rem !important;
+  } 
+  .h2,h2{
+    font-size:1.5rem !important;
   }
-  .caution{
-    display: block !important;
+  .h3,h3{
+    font-size:1.5rem !important;
+  }
+  .h4,h4{
+    font-size:1.5rem !important;
+  }
+  .h5,h5{
+    font-size:0.5rem !important;
+  }
+  .h6,h6{
+    font-size:1.5rem !important;
+  }
+  body{
+    margin: 0px 80px !important;
   }
 }
 
