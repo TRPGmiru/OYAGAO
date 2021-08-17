@@ -18,7 +18,7 @@
 
 body{
   color: #333333 !important;
-  margin: 0px 150px;
+  margin: 0 10%;
   background-color: #46CDCF;
 }
 
@@ -81,7 +81,7 @@ a:hover{
 .contents{
   background: white;
   padding: 30px;
-  width: 80%;
+  width: 100% !important;
 }
 
 .show {
