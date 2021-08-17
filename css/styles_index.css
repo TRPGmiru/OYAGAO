@@ -44,6 +44,10 @@
     .sp { display: block !important; }
   .masthead-heading { font-size: 50vw !important; }
   .masthead-subheading { font-size: 30vw !important; }
+  .portfolio-item-caption { 
+    margin: 24px !important;
+    margin-right: 0px !important;
+  }
 }
 
 .cal_wrapper {
