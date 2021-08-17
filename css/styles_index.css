@@ -42,7 +42,8 @@
 @media only screen and (max-width: 768px) {
     .pc { display: none !important; }
     .sp { display: block !important; }
-  .masthead-subheading { font-size: 3vw !important; }
+  .masthead-heading { font-size: 50vw !important; }
+  .masthead-subheading { font-size: 30vw !important; }
 }
 
 .cal_wrapper {
