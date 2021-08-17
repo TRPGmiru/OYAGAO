@@ -39,7 +39,7 @@
 
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
     .pc { display: none !important; }
     .sp { display: block !important; }
 }
