@@ -34,8 +34,12 @@
   height: 100% !important;
 }
 
-@media only screen and (min-width: 600px){
-  .googlecal{
-    padding-bottom: 75%;
-  }
+.pc { display: block !important; }
+.sp { display: none !important; }
+
+
+
+@media only screen and (max-width: 750px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
 }
