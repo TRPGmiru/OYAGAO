@@ -1,6 +1,6 @@
 .membername{
   margin-left: 20px;
-  font-size: 10vw !important;
+  font-size: 30px !important;
   font-weight: bold !important;
 }
 .osusume{
@@ -49,6 +49,7 @@
     margin: 24px !important;
     margin-right: 0px !important;
   }
+  .membername { font-size: 10vw !important; }
 }
 
 .cal_wrapper {
