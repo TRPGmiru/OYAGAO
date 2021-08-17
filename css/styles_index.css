@@ -42,8 +42,8 @@
 @media only screen and (max-width: 768px) {
     .pc { display: none !important; }
     .sp { display: block !important; }
-  .masthead-heading { font-size: 50vw !important; }
-  .masthead-subheading { font-size: 30vw !important; }
+  .masthead-heading { font-size: 10vw !important; }
+  .masthead-subheading { font-size: 6vw !important; }
   .portfolio-item-caption { 
     margin: 24px !important;
     margin-right: 0px !important;
