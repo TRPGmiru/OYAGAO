@@ -78,7 +78,7 @@ a:hover{
     cursor: pointer;
 }
 
-.contents{
+.container{
   background: white;
   padding: 30px;
   width: 100% !important;
