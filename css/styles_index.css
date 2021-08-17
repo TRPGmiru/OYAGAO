@@ -42,7 +42,7 @@
 @media only screen and (max-width: 768px) {
     .pc { display: none !important; }
     .sp { display: block !important; }
-  .masthead-heading { font-size: 6vw !important; }
+  .masthead-heading { font-size: 12vw !important; }
   .masthead-subheading { font-size: 3vw !important; }
 }
 
